@@ -21,6 +21,7 @@ class ArticlesController < ApplicationController
 
   def edit
     if @article = Article.find(params[:id])
+    end
   end
 
   def update
